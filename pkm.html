@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter pkm</title>
+    <link rel="stylesheet" href="csspkm.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jspkm.js"></script>
+</head>
+<body>
+    <div id="titulo">
+        <header><h1>counter pokemon tcg</h1></header>
+        <body> <!-- titulo -->
+            <div class="pkm0"> <!-- corpo-->
+                <div><!--botoes de status-->
+
+                </div draggable="true">
+                    <div><!--pokemon principal-->
+                    <div><!--botao mais-->
+                        <button onclick="clicar01()" id="mais0"></button>
+
+                    </div>
+                    <div><!--botao menos-->
+                        <button onclick="clicar02()" id="menos0"></button>
+
+                    </div>
+                    <div id="nomepkm"><!--digitar nome-->
+                    <input type="text" name="nome0" id="pk0">
+
+                    </div>
+                    <div>
+                        <button onclick="novopkm()" id=vidapk0>Novo</button>
+                    </div>
+                    <div>
+                        <button onclick="evoluir()" id=evo0>Evoluir</button>
+                    </div>
+                    <div>
+                        <button onclick="nb1()" id=n1>N</button>
+                    </div>
+                    <div>
+                        <button onclick="eb1()" id=e1>E</button>
+                    </div>
+                    <div>
+                        <button onclick="nb2()" id=n2>N</button>
+                    </div>
+                    <div>
+                        <button onclick="eb2()" id=e2>E</button>
+                    </div>
+                    <div>
+                        <button onclick="nb3()" id=n3>N</button>
+                    </div>
+                    <div>
+                        <button onclick="eb3()" id=e3>E</button>
+                    </div>
+                    <div>
+                        <button onclick="nb4()" id=n4>N</button>
+                    </div>
+                    <div>
+                        <button onclick="eb4()" id=e4>E</button>
+                    </div>
+                    <div>
+                        <button onclick="nb5()" id=n5>N</button>
+                    </div>
+                    <div>
+                        <button onclick="eb5()" id=e5>E</button>
+                    </div>
+                   
+                </div>
+                <div><!--dano-->
+                    <P id="dano0">dano</P>
+                    <p id="vida0"> vida</p>
+                    <P id="dano1">dano</P>
+                    <p id="vida1">vida</p>
+                    <P id="dano2">dano</P>
+                    <p id="vida2">vida</p>
+                    <P id="dano3">dano</P>
+                    <p id="vida3">vida</p>
+                    <P id="dano4">dano</P>
+                    <p id="vida4">vida</p>
+                    <P id="dano5">dano</P>
+                    <p id="vida5">vida</p>
+
+
+                </div>
+                <div> <!--estatos-->
+                    <div id="queimado">                       
+                     <img src="imagens/fogo.svg" width="100%">   
+
+                    </div>
+                    <div id="enve">
+                        <img src="imagens/veneno.svg" width="100%">
+
+                    </div>
+                    <div id="para">
+                        <img src="imagens/parali.svg" width="140%">
+
+                    </div>
+                    <div id="dorm">
+                        <img src="imagens/sono.svg" width="140%">
+
+                    </div>
+                    <div id="confuso">
+                        <img src="imagens/conf.svg" width="140%">
+
+                    </div>
+
+
+                </div>
+
+                <div id="moeda"> <!--moeda-->
+                    <div class="container">
+                                               
+                        
+                        <div class="coin" id="coin">
+                            <div class="heads">
+                                <img src="heads.svg" width="50px">
+                                
+                            </div>
+                            <div class="tails">
+                                <img src="tails.svg" width="50px">
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button id="flip-button">
+                                Flip Coin
+                            </button>
+                          
+                        </div>
+                    </div>
+                    <!--Script-->
+                    <script src="script.js"></script>              
+                   
+                   
+                  
+                  
+                    
+
+                </div>
+
+                <Div> <!--banco-->
+                    <div id="pkm1" class="banco"><!--pkm 1-->
+                        <div>
+                            <div><!--botao mais-->
+                                <button onclick="clicar11()" id="mais1"></button>
+        
+                            </div>
+                            <div><!--botao menos-->
+                                <button onclick="clicar12()" id="menos1"></button>
+        
+                            </div>
+                            <input type="text" name="nome1" id="pk1">
+
+                        </div>                    
+
+                    </div>
+
+                    <div id="pkm2"><!--pkm 2--> 
+                        
+                        <div>
+                            <button onclick="clicar21()" id="mais2"></button>
+        
+                        </div>
+                        <div><!--botao menos-->
+                            <button onclick="clicar22()" id="menos2"></button>
+        
+                        </div>                       
+                        <div>
+                            <input type="text" name="nome2" id="pk2">                        
+
+                        </div>
+
+                    </div>
+                    <div id="pkm3"><!--pkm 3-->
+                        <div><!--botao mais-->
+                            <button onclick="clicar31()" id="mais3"></button>
+    
+                        </div>
+                        <div><!--botao menos-->
+                            <button onclick="clicar32()" id="menos3"></button>
+    
+                        </div>
+                        <div>
+                            <input type="text" name="nome3" id="pk3">
+
+                        </div>
+
+                    </div>
+                    <div id="pkm4"><!--pkm 4-->
+                        <div><!--botao mais-->
+                            <button onclick="clicar41()" id="mais4"></button>
+    
+                        </div>
+                        <div><!--botao menos-->
+                            <button onclick="clicar42()" id="menos4"></button>
+    
+                        </div>
+                        <div>
+                            <input type="text" name="nome4" id="pk4">
+
+                        </div>
+
+                    <div id="pkm5"><!--pkm 5-->
+                        <div><!--botao mais-->
+                            <button onclick="clicar51()" id="mais5"></button>
+    
+                        </div>
+                        <div><!--botao menos-->
+                            <button onclick="clicar52()" id="menos5"></button>
+    
+                        </div>
+                        <div>
+                            <input type="text" name="nome5" id="pk5">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+
+.coin{
+    height: 100px;
+    width: 180px;
+    position: absolute;
+    margin: -3% auto;
+    right: 0%;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    z-index: 5;
+}
+.coin img{
+    width: 105px;
+}
+.heads,.tails{
+    position: absolute;
+    width: 150%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.tails{
+    transform: rotateX(180deg);
+}
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0) scale(1);
+        
+    }
+    50%{
+        transform: rotateX(1980deg) scale(3) translateX(-30px);
+    }
+    100%{
+        transform: rotateX(1980deg) scale(1);
+        
+    }
+
+}
+@keyframes spin-heads{
+    0%{
+        transform: rotateX(0) scale(1);
+    }
+    50%{
+            transform: rotateX(2160deg) scale(3) translateX(-30px);    
+    }
+    100%{
+        transform: rotateX(2160deg) scale(1);;
+    }
+}
+
+#flip-button{
+    height: 100px;
+    width: 95px;
+    background-color: #62e042;
+    color: #ffffff;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    opacity: 0%;
+    border-radius: 50%;
+    z-index: 6;
+
+}
+#flip-button:disabled{
+    background-color: #e1e0ee;
+    border-color: #e1e0ee;
+    color: #101020;
+}
+#reset-button{
+    background-color: #ffffff;
+    color: #424ae0;
+}

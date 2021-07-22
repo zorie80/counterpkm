@@ -1,0 +1,432 @@
+#titulo {
+
+    width:360px;
+    height:640px;
+    border:solid 3px;
+    font:normal 7pt Arial ;
+    text-align: center
+}
+.pkm0 {
+    background: #c590f5;
+    height: 200px;
+    width: 150px;
+    position: relative;
+    top: 8%;
+    right: -29%;       
+}
+#pkm1 {
+    background: #250344;
+    height: 90px;
+    width: 60px;
+    position: relative;
+    top: 100%;
+    right: 60%;
+    margin-top: 99.5%;
+    }
+#pkm2 {
+    background: #040344;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: 340px;
+    right: 116px;
+    }    
+#pkm3 {
+    background: #032a44;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: 340px;
+    right: 51px;
+    }
+#pkm4 {
+    background: #034431;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: 340px;
+    right: -14px;
+    }    
+#pkm5 {
+    background: #034419;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    right: -65px;
+    }    
+#pk0 {
+    width: 89%;
+    position: relative;
+    top: 50%;
+    right: 0%;   
+    margin-top: 1%;
+}
+#evo0 {
+    height: 20px;
+    width: 74px;
+    margin-right: 3%;
+    position: absolute;
+    top: -11%;
+    right: -3%;
+}
+#mais0 {
+    height: 89px;
+    width: 99%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+#menos0 {
+    height: 80px;
+    width: 99%;
+    margin-top: 0.3%;
+    opacity: 0.5;
+
+}
+#mais1 {
+    height: 33px;
+    width: 99%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+#menos1 {
+    height: 29px;
+    width: 99%;
+    margin-top: 0.3%;
+    opacity: 0.5;
+    
+}
+#mais2 {
+    height: 33px;
+    width: 99%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+#menos2 {
+    height: 29px;
+    width: 99%;
+    margin-top: 0.3%;
+    opacity: 0.5;
+    
+}
+#mais3 {
+    height: 33px;
+    width: 99%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+#menos3 {
+    height: 29px;
+    width: 99%;
+    margin-top: 0.3%;
+    opacity: 0.5;
+    
+}
+#mais4 {
+    height: 33px;
+    width: 99%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+#menos4 {
+    height: 29px;
+    width: 99%;
+    margin-top: 0.3%;
+    opacity: 0.5;
+    
+}
+#mais5 {
+    height: 33px;
+    width: 99%;
+    margin-top: 0%;
+    opacity: 0.5;
+}
+#menos5 {
+    height: 29px;
+    width: 99%;
+    margin-top: 0.3%;
+    opacity: 0.5;
+    
+}
+#dano0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: -3%;
+    right: 5%;
+}
+#dano1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(255, 145, 0);
+    position: absolute;
+    top: 154%;
+    right: 140%;
+}
+#vida1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    top: 154%;
+    right: 120%;
+}
+#dano2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(255, 145, 0);
+    position: absolute;
+    top: 154%;
+    right: 97.3%;
+}
+#vida2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    top: 154%;
+    right: 77.5%;
+}
+#dano3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(255, 145, 0);
+    position: absolute;
+    top: 154%;
+    right: 54%;
+}
+#vida3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    top: 154%;
+    right: 34.2%;
+}
+#dano4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(255, 145, 0);
+    position: absolute;
+    top: 154%;
+    right: 11%;
+}
+#vida4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    top: 154%;
+    right: -8.8%;
+}
+#dano5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(255, 145, 0);
+    position: absolute;
+    top: 154%;
+    right: -32.5%;
+}
+#vida5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(9, 255, 0);
+    position: absolute;
+    top: 154%;
+    right: -52.5%;
+}
+#n1 {height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 215%;
+    right: 140%;
+}
+#e1 {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 215%;
+    right: 121%;
+}
+#n2 {position: absolute;
+    top: 215%;
+    right: 100%;
+}
+#e2 {position: absolute;
+    top: 215%;
+    right: 78%;
+}
+#n3 {position: absolute;
+    top: 215%;
+    right: 58%;
+}
+#e3 {position: absolute;
+    top: 215%;
+    right: 35%;
+}
+#n4 {position: absolute;
+    top: 215%;
+    right: 13%;
+}
+#e4 {position: absolute;
+    top: 215%;
+    right: -10%;
+}
+#n5 {position: absolute;
+    top: 215%;
+    right: -30%;
+}
+#e5 {position: absolute;
+    top: 215%;
+    right: -50%;
+}
+#vidapk0 {
+    height: 20px;
+    width: 74px;
+    margin-right: 3%;
+    position: absolute;
+    top: -11%;
+    right: 48%;
+}
+#vida0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #10cf30;
+    position: absolute;
+    top: 12%;
+    right: 5%;
+}
+#pk1 {
+    width: 78%;
+    position: relative;
+    top: 80%;
+    right: 0%;   
+    margin-top: 1%;
+}
+#pk2 {
+    width: 78%;
+    position: relative;
+    top: 80%;
+    right: 0%;   
+    margin-top: 1%;
+}
+#pk3 {
+    width: 78%;
+    position: relative;
+    top: 80%;
+    right: 0%;   
+    margin-top: 1%;
+}
+#pk4 {
+    width: 78%;
+    position: relative;
+    top: 80%;
+    right: 0%;   
+    margin-top: 1%;
+}
+#pk5 {
+    width: 78%;
+    position: relative;
+    top: 80%;
+    right: 0%;   
+    margin-top: 1%;
+}
+#moeda {
+    position: absolute;
+    top: 105%;
+    right: 20%;
+}
+#queimado{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: #14ee39;
+    position: absolute;
+    top: 0%;
+    right: 105%;   
+}
+#enve{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    position: absolute;
+    top: 18%;
+    right: 105%;
+}
+#para{
+    height: 25px;
+    width: 33px;    
+    background-color: #ff0000;
+    position: absolute;
+    top: 23%;
+    right: -25%;
+}
+#dorm{
+    height: 25px;
+    width: 33px;    
+    background-color: #00ff80;
+    position: absolute;
+    top: 10%;
+    right: -25%;
+}
+#confuso{
+    height: 25px;
+    width: 33px;    
+    background-color: #00fff2;
+    position: absolute;
+    top: -3%;
+    right: -25%;
+}
+
